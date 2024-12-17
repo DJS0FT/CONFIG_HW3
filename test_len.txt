@@ -1,0 +1,6 @@
+# Пример использования операции len
+
+str := q(Hello, world!)
+count := .{ len q("Hello, World!") }.
+numbers := [1, 2, 3, 4, 5]
+numbers_count := .{ len numbers }.

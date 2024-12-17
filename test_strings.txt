@@ -1,0 +1,4 @@
+* Тест для строк
+greeting := q(Hello world!)
+farewell := q(Goodbye!)
+combined := .{concat greeting farewell}.

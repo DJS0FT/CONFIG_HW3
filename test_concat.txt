@@ -1,0 +1,4 @@
+* Тест для конкатенации строк
+first := q(Hello)
+second := q( World)
+greeting := .{concat first second}.

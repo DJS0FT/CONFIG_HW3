@@ -1,0 +1,6 @@
+# Пример использования массивов
+
+fruits := [q("apple"), q("banana"), q("cherry")]
+vegetables := [q("carrot"), q("lettuce"), q("tomato")]
+mixed := [q("apple"), 2, q("cherry"), 4]
+concat := .{ concat q("Fruits: "), q("apple"), q(", "), q("banana"), q(", "), q("cherry") }.
